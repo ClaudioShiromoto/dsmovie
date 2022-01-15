@@ -27,5 +27,5 @@ public class MovieController {
 	@GetMapping(value = "/{id}")
 	public MovieDto findById(@PathVariable Long id) {
 		return service.findByid(id);
-}
+	}
 }
